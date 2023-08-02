@@ -1,0 +1,10 @@
+/.VSCodeCounter
+/.vscode
+/.coerage
+/.out
+/.tasks
+/.tests
+*.ospx
+autumn-properties.yml
+logos.cfg
+.bsl-language-server.json
