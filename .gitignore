@@ -1,3 +1,9 @@
 /.VSCodeCounter
 /.vscode
+/tests
+/tasks
+/coverage
+/log
+/out
+*.json
 *.ospx
