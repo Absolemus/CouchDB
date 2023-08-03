@@ -23,8 +23,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          opm install opm@1.0.2
-          opm install -l --dev
+          opm install opm
+          opm install 1testrunner
+          opm install entity
+          opm install 1connector
+          opm install fs
+          opm install asserts
 
       - name: Start CouchDB
         uses: iamssen/couchdb-github-action@master
