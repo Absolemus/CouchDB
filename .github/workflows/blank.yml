@@ -28,8 +28,8 @@ jobs:
           opm i 1connector
           opm i fs
           opm i asserts
-          opm i .\dependencies\entity-2.3.4.0.ospx
-          opm i .\dependencies\sql-1.1.1.2.ospx
+          opm i ./dependencies/entity-2.3.4.0.ospx
+          opm i ./dependencies/sql-1.1.1.2.ospx
 
       - name: Start CouchDB
         uses: iamssen/couchdb-github-action@master
